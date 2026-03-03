@@ -1,0 +1,79 @@
+1. VERİ SETİ YAPISAL ANALİZİ
+1.1 Veri Seti Dosya Yapısı
+• Kaç dosya var?
+• Dosya türleri (CSV, JSON, TXT, Source Code, Log vb.)
+• Toplam veri boyutu
+1.2 Veri Boyutu
+• Gözlem (satır) sayısı
+• Özellik (sütun) sayısı
+• Veri tipleri (int, float, object, bool)
+ve benzeri..
+
+2.  TEMEL İSTATİSTİKSEL ANALİZ
+• Ortalama
+• Medyan
+• Standart sapma
+• Min / Max
+• Çarpıklık (Skewness)
+• Basıklık (Kurtosis)
+ve benzeri...
+
+3. DAĞILIM ANALİZİ
+Her sayısal değişken için:
+• Histogram
+• Boxplot
+• Outlier analizi
+ve benzeri...
+
+4. BAĞIMLI – BAĞIMSIZ DEĞİŞKEN ANALİZİ
+4.1 Korelasyon Analizi
+Analiz edilmesi gereken:
+• En yüksek pozitif korelasyonlar
+• En yüksek negatif korelasyonlar
+• Multicollinearity riski
+4.2 Kategorik Değişken Analizi
+Chi-square testi (kategorik için):
+4.3 Sayısal – Hedef Analizi
+
+5 - SINIF DENGESİ ANALİZİ (Classification Datasetler İçin)
+Raporlanmalı:
+• Imbalance var mı?
+• Majority class oranı?
+• SMOTE gereksinimi var mı?
+
+6 - ÖZELLİK ÖNEMİ & BOYUT ANALİZİ
+6.1 PCA Analizi
+İlk kaç bileşen %(85-90-95) varyansları açıklıyor?
+
+7 - MULTICOLLINEARITY ANALİZİ
+VIF > 10 → ciddi multicollinearity.
+
+8 -VERİ KALİTESİ ANALİZİ
+• Missing value oranı
+• Duplicate kayıt var mı?
+• Gürültülü veri?
+• Anormal değerler?
+• Feature scaling gereksinimi?
+
+9. RAPOR FORMATI
+• Rapor şu başlıklarda olmalıdır:
+• Dataset Description
+• Structural Analysis
+• Descriptive Statistics
+• Distribution Analysis
+• Target Variable Analysis
+• Correlation & Dependency Analysis
+• Multicollinearity
+• Dimensionality Analysis
+• Data Quality Assessment
+• Conclusion: Dataset hakkında akademik çıkarımlar
+
+10 - DEĞERLENDİRME KRİTERLERİ
+Kriterler ve puani:
+Yapısal Analiz 15
+İstatistiksel Analiz 20
+Bağımlı–Bağımsız Analiz 20
+Görselleştirme 15
+Akademik Yorumlama 20
+Kod Kalitesi 10
+Toplam: 100
