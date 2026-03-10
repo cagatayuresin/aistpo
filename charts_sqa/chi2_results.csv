@@ -1,0 +1,5 @@
+V1,V2,chi2,p,V_cramer,Sig
+Complexity,GodClass,2590.4592,0.0,0.1165,Evet
+Coupling,GodClass,2445.2596,0.0,0.1132,Evet
+Size,GodClass,11112.49,0.0,0.2414,Evet
+Lack of Cohesion,GodClass,3292.1608,0.0,0.1314,Evet

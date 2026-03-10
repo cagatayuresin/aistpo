@@ -1,0 +1,4 @@
+Değişken 1,Değişken 2,χ²,p-değeri,Cramérs V,Anlamlı?
+type,refactoring,32.2842,1.6735618769554129e-06,0.0066,Evet
+dataset,refactoring,53.6095,2.4457883533215655e-13,0.0085,Evet
+type,dataset,9936.5048,0.0,0.1157,Evet

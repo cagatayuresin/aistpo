@@ -1,0 +1,196 @@
+﻿=== RESULTED (main dataset) ===
+Shape: (190707, 51)
+Columns (51): ['Unnamed: 0', 'QualifiedName', 'Name', 'Complexity', 'Coupling', 'Size', 'Lack of Cohesion', 'CBO', 'RFC', 'SRFC', 'DIT', 'NOC', 'WMC', 'LOC', 'CMLOC', 'NOF', 'NOSF', 'NOM', 'NOSM', 'NORM', 'LCOM', 'LCAM', 'LTCC', 'ATFD', 'SI', 'Coverage', '#(C&I)', '#C', '#I', 'LOC.1', 'AC', 'EC', 'Abs', 'Ins', 'ND', 'WMC.1', 'Coverage.1', 'MCC', 'NBD', 'LOC.2', '#Pa', '#MC', '#AF', 'filename', 'GodClass', 'ps_LOC', 'ps_WMC', 'ps_ATFD', 'ps_LTCC', 'ps_NOM', 'mdi_godclass']
+
+Dtypes:
+Unnamed: 0            int64
+QualifiedName        object
+Name                 object
+Complexity           object
+Coupling             object
+Size                 object
+Lack of Cohesion     object
+CBO                 float64
+RFC                 float64
+SRFC                float64
+DIT                 float64
+NOC                 float64
+WMC                 float64
+LOC                 float64
+CMLOC               float64
+NOF                 float64
+NOSF                float64
+NOM                 float64
+NOSM                float64
+NORM                float64
+LCOM                float64
+LCAM                float64
+LTCC                float64
+ATFD                float64
+SI                  float64
+Coverage            float64
+#(C&I)              float64
+#C                  float64
+#I                  float64
+LOC.1               float64
+AC                  float64
+EC                  float64
+Abs                 float64
+Ins                 float64
+ND                  float64
+WMC.1               float64
+Coverage.1          float64
+MCC                 float64
+NBD                 float64
+LOC.2               float64
+#Pa                 float64
+#MC                 float64
+#AF                 float64
+filename             object
+GodClass              int64
+ps_LOC              float64
+ps_WMC              float64
+ps_ATFD             float64
+ps_LTCC             float64
+ps_NOM              float64
+mdi_godclass        float64
+
+Null counts (>0 only):
+  Name: 66 (0.03%)
+  Complexity: 60 (0.03%)
+  Coupling: 60 (0.03%)
+  Size: 60 (0.03%)
+  Lack of Cohesion: 60 (0.03%)
+  CBO: 60 (0.03%)
+  RFC: 60 (0.03%)
+  SRFC: 60 (0.03%)
+  DIT: 60 (0.03%)
+  NOC: 60 (0.03%)
+  WMC: 60 (0.03%)
+  LOC: 60 (0.03%)
+  CMLOC: 60 (0.03%)
+  NOF: 60 (0.03%)
+  NOSF: 60 (0.03%)
+  NOM: 60 (0.03%)
+  NOSM: 60 (0.03%)
+  NORM: 1079 (0.57%)
+  LCOM: 60 (0.03%)
+  LCAM: 60 (0.03%)
+  LTCC: 60 (0.03%)
+  ATFD: 60 (0.03%)
+  SI: 60 (0.03%)
+  Coverage: 190707 (100.00%)
+  #(C&I): 190707 (100.00%)
+  #C: 190707 (100.00%)
+  #I: 190707 (100.00%)
+  LOC.1: 60 (0.03%)
+  AC: 190707 (100.00%)
+  EC: 190707 (100.00%)
+  Abs: 190707 (100.00%)
+  Ins: 190707 (100.00%)
+  ND: 190707 (100.00%)
+  WMC.1: 60 (0.03%)
+  Coverage.1: 190707 (100.00%)
+  MCC: 190707 (100.00%)
+  NBD: 190707 (100.00%)
+  LOC.2: 190707 (100.00%)
+  #Pa: 190707 (100.00%)
+  #MC: 190707 (100.00%)
+  #AF: 190707 (100.00%)
+
+Duplicates: 0
+
+Head:
+   Unnamed: 0                    QualifiedName       Name Complexity Coupling Size Lack of Cohesion  CBO  RFC  SRFC  DIT  NOC  WMC  LOC  CMLOC  NOF  NOSF  NOM  NOSM  NORM  LCOM  LCAM  LTCC  ATFD   SI  Coverage  #(C&I)  #C  #I  LOC.1  AC  EC  Abs  Ins  ND  WMC.1  Coverage.1  MCC  NBD  LOC.2  #Pa  #MC  #AF          filename  GodClass    ps_LOC    ps_WMC  ps_ATFD  ps_LTCC    ps_NOM  mdi_godclass
+0           0                           junit5        NaN        NaN      NaN  NaN              NaN  NaN  NaN   NaN  NaN  NaN  NaN  NaN    NaN  NaN   NaN  NaN   NaN   NaN   NaN   NaN   NaN   NaN  NaN       NaN     NaN NaN NaN    NaN NaN NaN  NaN  NaN NaN    NaN         NaN  NaN  NaN    NaN  NaN  NaN  NaN  2 junit-5-2018-1         0  1.000000  1.000000      1.0      1.0  1.000000      1.000000
+1           2   org.junit.jupiter.api.AfterAll   AfterAll        low      low  low              low  0.0  0.0   0.0  1.0  0.0  0.0  5.0    0.0  0.0   0.0  0.0   0.0   0.0   0.0   0.0   0.0   0.0  0.0       NaN     NaN NaN NaN    5.0 NaN NaN  NaN  NaN NaN    0.0         NaN  NaN  NaN    NaN  NaN  NaN  NaN  2 junit-5-2018-1         0  0.005682  0.000000      0.0      0.0  0.000000      0.001136
+2           3  org.junit.jupiter.api.AfterEach  AfterEach        low      low  low              low  0.0  0.0   0.0  1.0  0.0  0.0  5.0    0.0  0.0   0.0  0.0   0.0   0.0   0.0   0.0   0.0   0.0  0.0       NaN     NaN NaN NaN    5.0 NaN NaN  NaN  NaN NaN    0.0         NaN  NaN  NaN    NaN  NaN  NaN  NaN  2 junit-5-2018-1         0  0.034091  0.042553      0.0      0.0  0.111111      0.037551
+
+=== FILE SIZES ===
+attribute-details.csv: 0.00 MB
+repositories.csv: 0.00 MB
+versions.csv: 0.01 MB
+resulted/class_level_quality_code_smell_mdi.csv: 57.32 MB
+codesmells/csv/ (60 files): 1038.62 MB
+quality_attributes/ (60 files): 172.63 MB
+
+=== ATTRIBUTE-DETAILS ===
+    No                Category              Code  Short name                                  Full name                                                                                                                                                           Description
+0    1  Package, Class, Method          Coupling    Coupling                                   Coupling                                                                                                                  Measures coupling value between two classes A and B.
+1    2  Package, Class, Method  Lack of Cohesion   LCohesion                           Lack of Cohesion                                                                                                   Measure how well the methods of a class are related to each other. 
+2    3  Package, Class, Method        Complexity  Complexity                                 Complexity                                                                    Implies being difficult to understand and describes the interactions between a number of entities.
+3    4  Package, Class, Method              Size        Size                                       Size                                                                                                               Measured by the number of lines or methods in the code.
+4    5          Package, Class               LOC        CLOC                        Class Lines of Code                                                                                             The number of all nonempty, non-commented lines of the body of the class.
+5    6          Package, Class               WMC         WMC                      Weighted Method Count                                                                                The weighted sum of all classÆ methods an represents the McCabe complexity of a class.
+6    7                   Class               DIT         DIT                  Depth of Inheritance Tree                                                                                                                   The position of the class in the inheritance tree. 
+7    8                   Class               NOC         NOC                         Number of Children                                                                                                                          The number of direct subclasses of a class. 
+8    9                   Class               CBO         CBO            Coupling Between Object Classes                                                                                                                    The number of classes that a class is coupled to. 
+9   10                   Class           CBO_LIB     CBO_LIB                                    CBO Lib                                                                                                                              The number of dependent library classes.
+10  11                 Project           CBO_APP     CBO_APP                                    CBO App                                                                                                                   The number of dependent classes in the application.
+11  12                   Class               RFC         RFC                       Response For a Class                                The number of the methods that can be potentially invoked in response to a public message received by an object of a particular class.
+12  13                   Class              SRFC        SRFC                Simple Response For a Class                         The number of the methods that can be potentially invoked in simple response to a public message received by an object of a particular class.
+13  14                   Class              LCOM        LCOM                Lack of Cohesion of Methods                                                                                                             Measure how methods of a class are related to each other.
+14  15                   Class              LCAM        LCAM      Lack of Cohesion Among Methods(1-CAM)                                                                               CAM metric is the measure of cohesion based on parameter types of methods. LCAM = 1-CAM
+15  16                   Class               NOF         NOF                           Number of Fields                                                                                                                          The number of fields (attributes) in a class
+16  17                   Class               NOM         NOM                          Number of Methods                                                                                                                                     The number of methods in a class.
+17  18                   Class              NOSF        NOSF                    Number of Static Fields                                                                                                                               The number of static fields in a class.
+18  19                   Class              NOSM        NOSM                   Number of Static Methods                                                                                                                              The number of static methods in a class.
+19  20                   Class                SI          SI                       Specialization Index                                                                                            Measures the extent to which subclasses override their ancestors classes. 
+20  21                   Class             CMLOC      CM-LOC                Class-Methods Lines of Code                                                                                          Total number of all nonempty, non-commented lines of methods inside a class.
+21  22                 Package                EC          EC                          Efferent Coupling  Outgoing Coupling. The number of classes in other packages that the classes in the package depend upon is an indicator of the package's dependence on externalities.
+22  23                 Package                AC          AC                          Afferent Coupling               Incoming Coupling. The number of classes in other packages that depend upon classes within the package is an indicator of the package's responsibility.
+23  24                 Package            #(C&I)         NoE  Number of Classes & Interfaces / Entities                                                                                                                                 Total number of Classes & Interfaces.
+24  25                 Package                #I         NoI                       Number of Interfaces                                                                                                                                           Total number of Interfaces.
+25  26                 Package                #C       NoCls                          Number of Classes                                                                                                                                              Total number of classes.
+26  27                   Class              NORM        NORM               Number of Overridden Methods                                                                                                                                     The number of Overridden Methods.
+27  28                   Class                C3          C3                                         C3                                                                                                               The max value of Coupling, Cohesion, Complexity metrics
+28  29                 Project              nofP        nofP                         Number of Packages                                                                                                                                     Number of Packages in the project
+29  30                 Project             nofPa       nofPa                Number of External Packages                                                                                                                 Number of External Packages referenced by the project
+30  31                 Project             nofEE       nofEE                Number of External Entities                                                                                                   Number of External classes and interfaces referenced by the project
+31  32                 Project              NoPC        NoPC              Number of Problematic Classes                                                                                  Number of classes with high coupling, high complexity or low cohesion in the project
+32  33                 Project             NoHPC       NoHPC       Number of Highly Problematic Classes                                                                                 Number of classes with high coupling, high complexity and low cohesion in the project
+33  34                   Class              LTCC        LTCC               Lack of Tight Class Cohesion                                                                                                    Measures the lack cohesion between the public methods of a class. 
+34  35                   Class              ATFD        ATFD                     Access to Foreign Data                                                            The number of classes whose attributes are directly or indirectly reachable from the investiggated class. 
+35  36                 Package               Ins           I                                Instability                                                                                                              Measure the relative susceptibility of class to changes.
+36  37                 Package               Abs         Abs                               Abstractness                                                                                                                    Measure the degree of abstraction of the package. 
+37  38                 Package                ND          ND                        Normalized Distance                                                                         Normalized Distance metric is used to measure the balance between stability and abstractness.
+38  39                   Class          InDegree    InDegree                                   InDegree                                                                                                                  In-degree of corresponding graph vertex of the class
+39  40                   Class         OutDegree   OutDegree                                  OutDegree                                                                                                                 Out-degree of corresponding graph vertex of the class
+40  41                   Class            Degree      Degree                                     Degree                                                                                                                     Degree of corresponding graph vertex of the class
+41  42                  Method               MCC         MCC              McCabe Cyclometaci Complexity                                                                                                                                          McCabe Cyclomatic Complexity
+42  43                  Method               NBD         NBD                         Nested Block Depth                                                                                                                                                    Nested Block Depth
+43  44                  Method             LOC.2        MLOC                       Method Lines of Code                                                                                                                                                  Method Lines of Code
+44  45                  Method               #Pa      NofPar                       Number of Parameters                                                                                                                                                  Number of Parameters
+45  46                  Method               #MC       NofMC                  Number of Methods  Called                                                                                                                                             Number of Methods  Called
+46  47                  Method               #AF       NofAF                  Number of Accessed Fields                                                                                                                                             Number of Accessed Fields
+
+=== REPOSITORIES ===
+   Serial     Repository name                                      Repository link  Commits  Branches  Number of releases  Contributors  Watches  Stars  Forks Data collection date
+0       1    Spring framework  https://github.com/spring-projects/spring-framework    22208        15                 203           531     3500  41400  28800            2/15/2021
+1       2             Junit-5                https://github.com/junit-team/junit5/     6621        37                  52           161      269   4400    991            2/15/2021
+2       3        Apache kafka                      https://github.com/apache/kafka     8590        31                 151           762     1100  18000   9600            2/15/2021
+3       4  Apache lucene-solr                https://github.com/apache/lucene-solr    34789       109                 335           232      332   4100   2700            2/15/2021
+4       5          Dropwizard             https://github.com/dropwizard/dropwizard     5702        24                 182           361      426   7900   3300            2/15/2021
+5       6          Checkstyle             https://github.com/checkstyle/checkstyle     9922         1                 128           254      218   5800   7700            2/15/2021
+6       7              Hadoop                     https://github.com/apache/hadoop    24612       284                 343           339     1000  11300   7000            2/15/2021
+7       8            Selenium               https://github.com/SeleniumHQ/selenium    26532        19                 127           558     1300  19800   6200            2/15/2021
+8       9          Skywalking                 https://github.com/apache/skywalking     6242        13                  44           315      839  16100   4700            2/15/2021
+9      10      Signal android          https://github.com/signalapp/Signal-Android     7015       128                 778           223      946  19800   4700            2/15/2021
+
+=== CODESMELLS sample ===
+File: datasets/SoftwareQualityAttributesDataset\codesmells\csv\1 spring-framework\2016-1.csv
+Shape: (54322, 8)
+Columns: ['Problem', 'Package', 'File', 'Priority', 'Line', 'Description', 'Rule set', 'Rule']
+   Problem                  Package                                                                                                                                                                                                                                                         File  Priority  Line                                                                                        Description Rule set                                  Rule
+0        1  org.springframework.aop  F:\REZA IMPORTANT\Reza\Study Material\UTEP\RA\Software Repositories\1 spring-framework versions\spring-framework-2016-1\spring-framework-d681f77d625d4815563511e6abb96827c8aec2a5\spring-aop\src\main\java\org\springframework\aop\IntroductionAdvisor.java         3    49  A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause   Design  AvoidUncheckedExceptionsInSignatures
+1        1  org.springframework.aop         F:\REZA IMPORTANT\Reza\Study Material\UTEP\RA\Software Repositories\1 spring-framework versions\spring-framework-2016-1\spring-framework-d681f77d625d4815563511e6abb96827c8aec2a5\spring-aop\src\main\java\org\springframework\aop\TargetSource.java         3    61                               A method/constructor should not explicitly throw java.lang.Exception   Design       SignatureDeclareThrowsException
+2        2  org.springframework.aop         F:\REZA IMPORTANT\Reza\Study Material\UTEP\RA\Software Repositories\1 spring-framework versions\spring-framework-2016-1\spring-framework-d681f77d625d4815563511e6abb96827c8aec2a5\spring-aop\src\main\java\org\springframework\aop\TargetSource.java         3    69                               A method/constructor should not explicitly throw java.lang.Exception   Design       SignatureDeclareThrowsException
+
+=== QUALITY_ATTRIBUTES sample ===
+File: datasets/SoftwareQualityAttributesDataset\quality_attributes\1 spring-framework\2016-1.csv
+Shape: (12941, 42)
+Columns: ['QualifiedName', 'Name', 'Complexity', 'Coupling', 'Size', 'Lack of Cohesion', 'CBO', 'RFC', 'SRFC', 'DIT', 'NOC', 'WMC', 'LOC', 'CMLOC', 'NOF', 'NOSF', 'NOM', 'NOSM', 'NORM', 'LCOM', 'LCAM', 'LTCC', 'ATFD', 'SI', 'Coverage', '#(C&I)', '#C', '#I', 'LOC.1', 'AC', 'EC', 'Abs', 'Ins', 'ND', 'WMC.1', 'Coverage.1', 'MCC', 'NBD', 'LOC.2', '#Pa', '#MC', '#AF']
+                                               QualifiedName  Name Complexity Coupling Size Lack of Cohesion  CBO  RFC  SRFC  DIT  NOC  WMC  LOC  CMLOC  NOF  NOSF  NOM  NOSM  NORM  LCOM  LCAM  LTCC  ATFD   SI  Coverage  #(C&I)   #C   #I  LOC.1   AC   EC  Abs  Ins   ND  WMC.1  Coverage.1  MCC  NBD  LOC.2  #Pa  #MC  #AF
+0  spring-framework-d681f77d625d4815563511e6abb96827c8aec2a5   NaN        NaN      NaN  NaN              NaN  NaN  NaN   NaN  NaN  NaN  NaN  NaN    NaN  NaN   NaN  NaN   NaN   NaN   NaN   NaN   NaN   NaN  NaN       NaN     NaN  NaN  NaN    NaN  NaN  NaN  NaN  NaN  NaN    NaN         NaN  NaN  NaN    NaN  NaN  NaN  NaN
+1                                                  <Package>   NaN        low      low  low              low  NaN  NaN   NaN  NaN  NaN  1.0  2.0    NaN  NaN   NaN  NaN   NaN   NaN   NaN   NaN   NaN   NaN  NaN       NaN     1.0  1.0  0.0    2.0  0.0  0.0  0.0  1.0  0.0    1.0         NaN  NaN  NaN    NaN  NaN  NaN  NaN
+2                                                       Null  Null        low      low  low              low  0.0  1.0   0.0  0.0  0.0  1.0  2.0    1.0  0.0   0.0  1.0   0.0   0.0   0.0   0.0   0.0   0.0  0.0       NaN     NaN  NaN  NaN    2.0  NaN  NaN  NaN  NaN  NaN    1.0         NaN  NaN  NaN    NaN  NaN  NaN  NaN

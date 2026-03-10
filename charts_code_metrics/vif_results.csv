@@ -1,0 +1,19 @@
+Değişken,VIF,Ciddi MC? (>10),Orta MC? (>5)
+cbo,188907.8351,Evet,Evet
+fanin,1.2163,Hayır,Hayır
+fanout,188904.0843,Evet,Evet
+wmc,19.2426,Evet,Evet
+dit,1.0888,Hayır,Hayır
+noc,1.076,Hayır,Hayır
+rfc,4.6452,Hayır,Hayır
+lcom,4.3097,Hayır,Hayır
+loc,9.831,Hayır,Evet
+totalMethodsQty,9.5056,Hayır,Evet
+totalFieldsQty,2.4076,Hayır,Hayır
+nosi,1.3433,Hayır,Hayır
+returnQty,5.7632,Hayır,Evet
+loopQty,2.5376,Hayır,Hayır
+comparisonsQty,3.4446,Hayır,Hayır
+variablesQty,6.33,Hayır,Evet
+maxNestedBlocksQty,1.9316,Hayır,Hayır
+uniqueWordsQty,2.2584,Hayır,Hayır

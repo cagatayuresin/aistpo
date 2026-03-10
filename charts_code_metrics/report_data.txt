@@ -1,0 +1,108 @@
+﻿=== STATS TABLE ===
+| cbo | 5.1561 | 3.0 | 5.8931 | 0 | 192 | 4.2396 | 62.6666 |
+| cboModified | 6.8967 | 5.0 | 7.4942 | 0 | 471 | 6.9031 | 270.2567 |
+| fanin | 1.7406 | 1.0 | 3.8387 | 0 | 469 | 33.4526 | 3660.4778 |
+| fanout | 5.1562 | 3.0 | 5.8932 | 0 | 192 | 4.2395 | 62.665 |
+| wmc | 7.6432 | 3.0 | 14.9835 | 0 | 666 | 9.6888 | 219.9243 |
+| dit | 1.4315 | 1.0 | 0.8218 | 1 | 75 | 5.6543 | 221.9581 |
+| noc | 0.1058 | 0.0 | 0.8426 | 0 | 25 | 16.2012 | 354.7236 |
+| rfc | 8.103 | 3.0 | 14.227 | 0 | 237 | 4.5396 | 33.3049 |
+| lcom | 36.0081 | 0.0 | 1504.0433 | 0 | 221445 | 106.0877 | 12102.9184 |
+| loc | 36.8468 | 15.0 | 87.9248 | 1 | 6667 | 29.9193 | 1660.9943 |
+| totalMethodsQty | 4.599 | 2.0 | 8.8134 | 0 | 666 | 25.7606 | 1455.8686 |
+| totalFieldsQty | 2.2682 | 1.0 | 4.776 | 0 | 149 | 8.9666 | 159.2861 |
+| nosi | 0.9941 | 0.0 | 4.6066 | 0 | 604 | 60.8274 | 7182.3364 |
+| returnQty | 2.4587 | 0.0 | 7.8062 | 0 | 666 | 36.5133 | 2401.1126 |
+| loopQty | 0.4299 | 0.0 | 1.8194 | 0 | 77 | 10.2283 | 179.7172 |
+| comparisonsQty | 1.0232 | 0.0 | 3.6482 | 0 | 153 | 10.4018 | 224.0721 |
+| variablesQty | 5.4887 | 2.0 | 11.3463 | 0 | 369 | 6.6908 | 83.8105 |
+| maxNestedBlocksQty | 0.7122 | 0.0 | 1.1038 | 0 | 14 | 2.3434 | 9.3081 |
+| uniqueWordsQty | 31.1643 | 19.0 | 44.8212 | 0 | 2866 | 18.5622 | 994.9848 |
+
+=== QUARTILES ===
+| cbo | 1.0 | 7.0 | 6.0 |
+| cboModified | 2.0 | 9.0 | 7.0 |
+| fanin | 0.0 | 2.0 | 2.0 |
+| fanout | 1.0 | 7.0 | 6.0 |
+| wmc | 1.0 | 8.0 | 7.0 |
+| dit | 1.0 | 2.0 | 1.0 |
+| noc | 0.0 | 0.0 | 0.0 |
+| rfc | 0.0 | 10.0 | 10.0 |
+| lcom | 0.0 | 4.0 | 4.0 |
+| loc | 7.0 | 39.0 | 32.0 |
+| totalMethodsQty | 1.0 | 5.0 | 4.0 |
+| totalFieldsQty | 0.0 | 3.0 | 3.0 |
+| nosi | 0.0 | 1.0 | 1.0 |
+| returnQty | 0.0 | 2.0 | 2.0 |
+| loopQty | 0.0 | 0.0 | 0.0 |
+| comparisonsQty | 0.0 | 0.0 | 0.0 |
+| variablesQty | 0.0 | 6.0 | 6.0 |
+| maxNestedBlocksQty | 0.0 | 1.0 | 1.0 |
+| uniqueWordsQty | 9.0 | 39.0 | 30.0 |
+
+=== OUTLIER ===
+| cbo | -8.0 | 16.0 | 33701 | 4.54 |
+| cboModified | -8.5 | 19.5 | 42581 | 5.74 |
+| fanin | -3.0 | 5.0 | 57294 | 7.72 |
+| fanout | -8.0 | 16.0 | 33701 | 4.54 |
+| wmc | -9.5 | 18.5 | 69918 | 9.42 |
+| dit | -0.5 | 3.5 | 20401 | 2.75 |
+| noc | 0.0 | 0.0 | 28225 | 3.8 |
+| rfc | -15.0 | 25.0 | 56150 | 7.57 |
+| lcom | -6.0 | 10.0 | 119210 | 16.07 |
+| loc | -41.0 | 87.0 | 69575 | 9.38 |
+| totalMethodsQty | -5.0 | 11.0 | 63883 | 8.61 |
+| totalFieldsQty | -4.5 | 7.5 | 51746 | 6.97 |
+| nosi | -1.5 | 2.5 | 75774 | 10.21 |
+| returnQty | -3.0 | 5.0 | 93119 | 12.55 |
+| loopQty | 0.0 | 0.0 | 109982 | 14.82 |
+| comparisonsQty | 0.0 | 0.0 | 173364 | 23.37 |
+| variablesQty | -9.0 | 15.0 | 66315 | 8.94 |
+| maxNestedBlocksQty | -1.5 | 2.5 | 54323 | 7.32 |
+| uniqueWordsQty | -36.0 | 84.0 | 51075 | 6.88 |
+
+=== VIF ===
+| cbo | 188907.8351 | Evet | Evet |
+| fanin | 1.2163 | Hay²r | Hay²r |
+| fanout | 188904.0843 | Evet | Evet |
+| wmc | 19.2426 | Evet | Evet |
+| dit | 1.0888 | Hay²r | Hay²r |
+| noc | 1.076 | Hay²r | Hay²r |
+| rfc | 4.6452 | Hay²r | Hay²r |
+| lcom | 4.3097 | Hay²r | Hay²r |
+| loc | 9.831 | Hay²r | Evet |
+| totalMethodsQty | 9.5056 | Hay²r | Evet |
+| totalFieldsQty | 2.4076 | Hay²r | Hay²r |
+| nosi | 1.3433 | Hay²r | Hay²r |
+| returnQty | 5.7632 | Hay²r | Evet |
+| loopQty | 2.5376 | Hay²r | Hay²r |
+| comparisonsQty | 3.4446 | Hay²r | Hay²r |
+| variablesQty | 6.33 | Hay²r | Evet |
+| maxNestedBlocksQty | 1.9316 | Hay²r | Hay²r |
+| uniqueWordsQty | 2.2584 | Hay²r | Hay²r |
+
+=== ANOVA ===
+| cbo | 22.4663 | 0.000002 | Evet |
+| cboModified | 24.35 | 0.000001 | Evet |
+| fanin | 5.6694 | 0.017263 | Evet |
+| fanout | 22.3179 | 0.000002 | Evet |
+| wmc | 14.4756 | 0.000142 | Evet |
+| dit | 4.5803 | 0.032342 | Evet |
+| noc | 3.4887 | 0.061788 | Hay²r |
+| rfc | 7.3758 | 0.006611 | Evet |
+| lcom | 0.0026 | 0.959652 | Hay²r |
+| loc | 4.8474 | 0.027689 | Evet |
+| totalMethodsQty | 8.5495 | 0.003456 | Evet |
+| totalFieldsQty | 2.6236 | 0.105287 | Hay²r |
+| nosi | 8.846 | 0.002937 | Evet |
+| returnQty | 4.6576 | 0.030917 | Evet |
+| loopQty | 0.8205 | 0.365045 | Hay²r |
+| comparisonsQty | 14.5406 | 0.000137 | Evet |
+| variablesQty | 0.3219 | 0.570462 | Hay²r |
+| maxNestedBlocksQty | 19.283 | 0.000011 | Evet |
+| uniqueWordsQty | 0.267 | 0.605325 | Hay²r |
+
+=== CHI2 ===
+| type | refactoring | 32.2842 | 0.000002 | 0.0066 | Evet |
+| dataset | refactoring | 53.6095 | 0.000000 | 0.0085 | Evet |
+| type | dataset | 9936.5048 | 0.000000 | 0.1157 | Evet |
