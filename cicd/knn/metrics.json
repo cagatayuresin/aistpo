@@ -1,0 +1,80 @@
+{
+    "model": "knn",
+    "accuracy": 0.10044444444444445,
+    "f1_score_macro": 0.09526913630221871,
+    "classification_report": {
+        "Build Failure": {
+            "precision": 0.09065679925994449,
+            "recall": 0.21729490022172948,
+            "f1-score": 0.1279373368146214,
+            "support": 902.0
+        },
+        "Configuration Error": {
+            "precision": 0.11663066954643629,
+            "recall": 0.18409090909090908,
+            "f1-score": 0.14279418245923314,
+            "support": 880.0
+        },
+        "Dependency Error": {
+            "precision": 0.0862708719851577,
+            "recall": 0.10310421286031042,
+            "f1-score": 0.09393939393939393,
+            "support": 902.0
+        },
+        "Deployment Failure": {
+            "precision": 0.09808612440191387,
+            "recall": 0.09111111111111111,
+            "f1-score": 0.0944700460829493,
+            "support": 900.0
+        },
+        "Network Error": {
+            "precision": 0.10271041369472182,
+            "recall": 0.077502691065662,
+            "f1-score": 0.08834355828220859,
+            "support": 929.0
+        },
+        "Permission Error": {
+            "precision": 0.11053540587219343,
+            "recall": 0.07191011235955057,
+            "f1-score": 0.08713410483321987,
+            "support": 890.0
+        },
+        "Resource Exhaustion": {
+            "precision": 0.09457364341085271,
+            "recall": 0.06681270536692223,
+            "f1-score": 0.07830551989730423,
+            "support": 913.0
+        },
+        "Security Scan Failure": {
+            "precision": 0.14527027027027026,
+            "recall": 0.09267241379310345,
+            "f1-score": 0.11315789473684211,
+            "support": 928.0
+        },
+        "Test Failure": {
+            "precision": 0.09210526315789473,
+            "recall": 0.0550561797752809,
+            "f1-score": 0.06891701828410689,
+            "support": 890.0
+        },
+        "Timeout": {
+            "precision": 0.08024691358024691,
+            "recall": 0.04503464203233257,
+            "f1-score": 0.057692307692307696,
+            "support": 866.0
+        },
+        "accuracy": 0.10044444444444445,
+        "macro avg": {
+            "precision": 0.10170863751796322,
+            "recall": 0.10045898776769117,
+            "f1-score": 0.09526913630221871,
+            "support": 9000.0
+        },
+        "weighted avg": {
+            "precision": 0.10187997831002854,
+            "recall": 0.10044444444444445,
+            "f1-score": 0.0953596003156734,
+            "support": 9000.0
+        }
+    }
+}

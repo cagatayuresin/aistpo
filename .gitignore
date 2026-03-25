@@ -25,3 +25,4 @@ wheels/
 
 # Specific to this project
 datasets/
+*.joblib

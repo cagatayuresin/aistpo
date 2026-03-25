@@ -1,0 +1,32 @@
+{
+    "model": "knn",
+    "accuracy": 0.57335,
+    "f1_score_macro": 0.5733275730305574,
+    "classification_report": {
+        "Non-Refactored(0)": {
+            "precision": 0.5598299050632911,
+            "recall": 0.5810325361798214,
+            "f1-score": 0.5702341979350289,
+            "support": 9743.0
+        },
+        "Refactored(1)": {
+            "precision": 0.5871763754045307,
+            "recall": 0.5660524519840109,
+            "f1-score": 0.5764209481260859,
+            "support": 10257.0
+        },
+        "accuracy": 0.57335,
+        "macro avg": {
+            "precision": 0.5735031402339109,
+            "recall": 0.5735424940819162,
+            "f1-score": 0.5733275730305574,
+            "support": 20000.0
+        },
+        "weighted avg": {
+            "precision": 0.5738545423777959,
+            "recall": 0.57335,
+            "f1-score": 0.5734070727705125,
+            "support": 20000.0
+        }
+    }
+}
